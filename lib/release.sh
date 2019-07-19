@@ -25,6 +25,9 @@ log "Setting up paths ..."
 
 setup_dirs "."
 
+debug "test1: $MDAPI_DEPLOY_TESTLEVEL"
+log "test2: $MDAPI_DEPLOY_TESTLEVEL"
+
 log "Config vars ..."
 debug "SFDX_DEV_HUB_AUTH_URL: $SFDX_DEV_HUB_AUTH_URL"
 debug "STAGE: $STAGE"
